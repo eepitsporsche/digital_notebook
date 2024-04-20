@@ -7,6 +7,19 @@ const PORT = process.env.PORT || 3001;
 //Create Express App
 const app = express();
 
+//Middleware//
+//Parse Incoming URL-Encoded Request Data to Allow Form Data Handling
+app.use(express.urlencoded({ extended: false}));
+
+//Parse Incoming JSON Request Data to Allow JSON Payloads Handling in the Request Body
+app.use(expresss.json());
+
+//Use 'public' Directory to Serve Static Assets
+app.use(express.static("public"));
+
+//Route Handlers for Requests to Respective Routes
+app.use(html_routes);
+app.use(api_routes);
 
 //Listen method for incoming connections on specified PORT
 app.listen(PORT, () =>
