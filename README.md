@@ -1,4 +1,5 @@
 # Digital Notebook
+![License](https://img.shields.io/badge/License-MIT-9cf.svg)
 
 ## Table of Contents
 
@@ -10,45 +11,40 @@
 * [License](#license)
 
 ## Description
-The README Generator provides users with an easy-to-use program to create a professional README for their project. User input taken from a series of prompts is applied to the program to produce a README file with dynamic markdown syntax.
+The Digital Notebook is a note-taking app allowing users to save notes to a database. Express.js utilization enables the app to access note data from a JSON database file. This allows user's data to persist beyond ended sessions in the browser.
 
-Future development for this app could include the feature of omitting a section when no entry has been made by the user.
+Future development for this app could include the implementation of categories/folders for notes to allow users organization of notes.
 
+> [Clone the repository](https://github.com/eepitsporsche/digital_notebook) to your machine to operate the application via VS Code.
 
 ## Installation
-[Inquirer v8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4) must be installed to operate this app.
+Access the Digital Notebook via this [Heroku]() link.
 
 ## Usage
-[Clone the repository](https://github.com/eepitsporsche/readme_generator) to your machine and open the application in VS Code.
 
-<p align="center"><img src="./assets/images/README_generator_github_repo.jpg" alt="README Generator GitHub Repo"></p>
 
-To initiate the README Generator, enter the <code>node index.js</code> command into the index.js terminal.
-
-<p align="center"><img src="./assets/images/README_generator_terminal_demo.jpg" alt="README Generator Terminal Demo"></p>
-
-After answering the prompts, a README file entitled "generated-README.md" with the user's reponses will be created.
-
-<p align="center"><img src="./assets/images/README_generator_new_README.jpg" alt="New README.md Created by the README Generator"></p>
-
-[Click here](https://drive.google.com/file/d/1m8n0c18xIPF1WtMD-vqTPWTqhQoyKBnl/view?usp=share_link) to view the video walk-through.
 
 
 ## Credits
-* [Egghead.io](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-adding-badges-to-your-readme) for information on including license badges in a README.md
-* [SitePoint](https://www.sitepoint.com/understanding-module-exports-exports-node-js/) for information on the module.export method
-* [DopeDev YouTube Channel](https://www.youtube.com/watch?v=9YivEQFpmHQ) for walk-through tutorial
-* UCB Bootcamp provided file structure and function framework for this project.
+* UCB Bootcamp provided front-end HTML and CSS for this project.
 
 
 ## Technologies Used
 * VS Code
-* JavaScript
 * Node.js
-* Inquirer
+* [Express.js](https://www.npmjs.com/package/express)
+* [UUID V4](https://www.npmjs.com/package/uuidv4)
 
 
 ## License
-N/A
+<a href="https://opensource.org/licenses/MIT">MIT License</a>
+
+Copyright© 2024 Porsche Herskorn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### <p align="center">[Back to Top](#digital-notebook)</p>
