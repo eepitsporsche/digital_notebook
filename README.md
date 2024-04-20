@@ -21,7 +21,15 @@ Future development for this app could include the implementation of categories/f
 Access the Digital Notebook via this [Heroku]() link.
 
 ## Usage
+Users can enter the note-taking interface by clicking the "Get Started" button on the homepage. Users may enter respective information in the "Note Title" and "Note Text" fields and click the "Save Note" button to store the note in the app.
 
+If a user determines the data they are entering is in error, they may use the "Clear Form" button to erase unsaved data in the form.
+
+Text entered in the note title field will appear in the left column on the page, wherein the user may click the item to regenerate the associated note data.
+
+Saved notes can be deleted from the app by clicking the trash icon to the right of the note to be removed.
+
+<p align="center"><img src="./images/digital_notebook_demo.gif" alt="Digital Notebook Demo"></p>
 
 
 
