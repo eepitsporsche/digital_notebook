@@ -9,8 +9,8 @@ router.get('/', (req, res) => {
 });
 
 //Notes URL Handler with notes.html as a Response to Requests
-router.get('./notes', (res, req) => {
-    res.sendFile(path.join(__dirname, '../public/note.html'))
+router.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/notes.html'))
 });
 
 //Export Allowing the Rest of the App to Access the Router Object

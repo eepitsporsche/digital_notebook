@@ -3,7 +3,7 @@ const router = require('express').Router();
 //File System Object to Import 'fs' Module
 const fs = require('fs');
 //UUID Object imports 'uuidv4' to Generate Unique Identifiers
-const { v4: uuid } = require('uuid');
+const { v4: uuidv4 } = require('uuid');
 
 //API/Notes Route Handler Using Asynchronous Function to Handle Requests
 router.get('/api/notes', async (req, res) => {
@@ -12,7 +12,7 @@ router.get('/api/notes', async (req, res) => {
 });
 
 //Post Request for New Note Entries
-router.post('/api/notes', (res, req) => {
+router.post('/api/notes', (req, res) => {
     const jsonDatabase = JSON.parse(fs.readFileSync('db/db.json', 'utf8'));
     const newNote = {
         title: req.body.title,
