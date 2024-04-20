@@ -26,6 +26,10 @@ Access the Digital Notebook via this [Heroku]() link.
 
 
 ## Credits
+* [Stack Overflow](https://stackoverflow.com/questions/70700607/how-to-add-a-unique-id-to-each-entry-in-my-json-object) was used for information on creating unique IDs for JSON objects.
+* [Log Rocket](https://blog.logrocket.com/reading-writing-json-files-node-js-complete-tutorial/) was used for information on reading and writing to JSON files.
+* [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-add-data-in-json-file-using-node-js/) was used  for information on adding to JSON files using the <code>push()</code> method.
+* [Stack Overflow](https://stackoverflow.com/questions/62706358/how-to-remove-an-object-from-a-json-file) was used for information on removing an object from a JSON file.
 * UCB Bootcamp provided front-end HTML and CSS for this project.
 
 
